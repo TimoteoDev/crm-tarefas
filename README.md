@@ -1,6 +1,6 @@
 # 📌 CRM de Tarefas (Frontend)
 
-Aplicação simples para gerenciamento de tarefas, feita com HTML, CSS e JavaScript puro (Vanilla JS). O projeto foi desenvolvido com foco em funcionalidades essenciais e uma interface limpa e responsiva.
+Aplicação simples para gerenciamento de tarefas, feita com HTML, CSS e JavaScript puro. O projeto foi desenvolvido com foco em funcionalidades essenciais e uma interface limpa e responsiva.
 
 ## ✅ Funcionalidades
 
