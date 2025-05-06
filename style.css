@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #091241;
+    color:white
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: rgba(8, 94, 223, 0.63);
+    color:white
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border:solid white;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border:solid white;
+    border-radius: 6px;
+  }
+
+ .botao:hover {
+    background-color: rgb(6, 255, 6);
+    font-size:14px
+  }
+
+  
+ .btn-excluir:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+
+ .btn-concluir:hover {
+    background-color: rgb(8, 156, 8);
+ }
+
+ .btn-editar:hover {
+    background-color: rgb(255, 238, 0);
+ }
+
+  
+  ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  li {
+    background: #e3e3e3;
+    color:black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border:solid rgba(0, 0, 0, 0.781);
+  }
+  
+  li.concluida {
+    text-decoration: line-through;
+    color: black;
+    background: #d0ffd0;
+  }
+  
+  li button {
+    margin-left: 10px;
+  }
+  
