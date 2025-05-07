@@ -7,7 +7,7 @@
   body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #091241;
+    background-color: #1c1c1f;
     color:white
   }
   
@@ -16,8 +16,8 @@
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    background-color: rgba(8, 94, 223, 0.63);
+    box-shadow: 0 0 10px rgb(5, 12, 107);
+    background-color: rgb(10, 14, 14);
     color:white
   }
   
@@ -55,14 +55,17 @@
  .btn-excluir:hover {
     background-color: rgb(255, 0, 0);
     color: white;
+    font-size:14px
   }
 
  .btn-concluir:hover {
     background-color: rgb(8, 156, 8);
+    font-size:14px
  }
 
  .btn-editar:hover {
     background-color: rgb(255, 238, 0);
+    font-size:14px
  }
 
   
